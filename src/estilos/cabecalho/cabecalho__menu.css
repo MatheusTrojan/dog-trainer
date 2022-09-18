@@ -1,0 +1,32 @@
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+}
+
+.container__botao:checked ~ .lista-menu {
+    display: block;
+}
+
+.container__botao {
+    display: none;
+}
+
+.lista-menu__titulo, .lista-menu__item {
+    padding: 1em;
+    background-color: var(--cor-primaria);
+}
+
+.lista-menu__titulo {
+    color: var(--fundo-secundario);
+    font-weight: 700;
+}
+
+.lista-menu__link {
+    background: var(--fundo-secundario);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+}

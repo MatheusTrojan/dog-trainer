@@ -1,0 +1,16 @@
+@import url("../estilos/cabecalho/cabecalho.css");
+@import url("../estilos/cabecalho/cabecalho__menu.css");
+
+:root {
+    --fonte-principal: 'Poppins';
+
+    --fundo-principal: blue;
+    --fundo-secundario: red;
+
+    --cor-primaria: yellow;
+    --branco: rgb(131, 124, 124);
+}
+
+body {
+    font-family: var(--fonte-principal);
+}
