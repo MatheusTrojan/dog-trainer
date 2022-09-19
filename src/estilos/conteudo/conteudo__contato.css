@@ -1,4 +1,7 @@
 .conteudo__contato {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     margin-bottom: 1.0rem;
 }
 

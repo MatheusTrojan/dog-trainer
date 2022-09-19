@@ -1,6 +1,7 @@
 @import url("../estilos/cabecalho/cabecalho.css");
 @import url("../estilos/conteudo/conteudo.css");
 @import url("../estilos/equipe/equipe.css");
+@import url("../estilos/servicos/servicos.css");
 @import url("../estilos/rodape.css");
 
 
@@ -9,7 +10,7 @@
 
     --fundo-principal: #9E9D9B;
     --fundo-secundario: #D6D5D2;
-    --fundo-terciario: #645b3d;
+    --fundo-terciario: #9c8e60;
 
     --cor-primaria: #181717;   
     --cor-secundaria:#59564C;

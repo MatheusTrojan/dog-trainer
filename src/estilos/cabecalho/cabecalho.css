@@ -1,5 +1,13 @@
 @import url("cabecalho__menu.css");
 
+.cabecalho {
+    align-items: center;
+    background-color: var(--fundo-secundario);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
 .cabecalho__container {
     align-items: center;
     display: flex;
@@ -23,19 +31,6 @@
 
 .container__botao:checked ~ .container__rotulo{
     background: var(--fundo-secundario);
-}
-
-.cabecalho {
-    align-items: center;
-    background-color: var(--fundo-secundario);
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-}
-
-.container {
-    align-items: center;
-    display: flex;
 }
 
 .container__titulo, .container__texto {
