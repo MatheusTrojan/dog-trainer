@@ -13,20 +13,16 @@
     display: none;
 }
 
-.lista-menu__titulo, .lista-menu__item {
+.lista-menu__item {
     padding: 1em;
-    background-color: var(--cor-primaria);
-}
-
-.lista-menu__titulo {
-    color: var(--fundo-secundario);
-    font-weight: 700;
+    background-color: var(--fundo-secundario);
 }
 
 .lista-menu__link {
-    background: var(--fundo-secundario);
+    background: var(--cor-primaria);
+    background-clip: text;
+    font-weight: 500;
+    text-transform: uppercase;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-transform: uppercase;
 }

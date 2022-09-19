@@ -12,7 +12,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
     </head>
 
-    <body>
+    <body class="container__geral">
         <header class="cabecalho">
             <div class="cabecalho__container">
                 <input type="checkbox" id="menu" class="container__botao">
@@ -21,18 +21,57 @@
                 </label>
 
                 <ul class="lista-menu">
-                    <li class="lista-menu__titulo">Categorias</li>
                     <li class="lista-menu__item">
-                        <a href="#" class="lista-menu__link">Serviços</a>
+                        <a href="equipe.html" class="lista-menu__link">Nossa Equipe</a>
                     </li>
                     <li class="lista-menu__item">
-                        <a href="#" class="lista-menu__link">Contato</a>
+                        <a href="servicos.html" class="lista-menu__link">Serviços</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="contato.html" class="lista-menu__link">Contato</a>
                     </li>
                 </ul>
-                <img src="src/images/logo.jpg" alt="Logo da Dog Trainer" class="container__imagem">
+                <img src="src/images/logo2.png" alt="Logo da Amigo Cão" class="container__imagem">
                 <h1 class="container__titulo">Dog Trainer</h1>
             </div>            
         </header>
+
+        <main class="conteudo">
+            <section class="conteudo__empresa">
+                <h2 class="conteudo__titulo">Bem vindo a Amigocão!</h2>
+                <img src="src/images/logo.png" alt="Logo da Amigo Cão" class="conteudo__empresa--logo">
+                <p class="conteudo__texto"> Aqui você encontrará adestramento de qualidade para o seu melhor amigo!</p>
+            </section>
+
+            <section class="conteudo__historia">
+                <h2 class="conteudo__titulo">Nossa história</h2>
+                <p class="conteudo__texto">A Amigocão já possui 12 anos de mercado, tendo sua origem em Joinville/SC. Tudo começou quando o tutor Carlos Eduardo decidiu colocar em prática seus conhecimentos para ajudar outras pessoas a controlar possíveis problemas de seus pets. Hoje, a equipe cresceu e podemos lidar com praticamente qualquer situação envolvendo os peludos!</p>
+                <img src="src/images/nossa-equipe.jpg" alt="Homem abraçando seu cão" class="conteudo__historia--imagem">
+                <a href="equipe.html">
+                    <button class="conteudo__botao">Conheça nossa equipe</button>
+                </a>
+            </section>
+
+            <section class="conteudo__institucional">
+                <h2 class="conteudo__titulo">Treinamentos do mais simples ao mais avançado!</h2>
+                <iframe class="conteudo__institucional--video" width="560" height="315" src="https://www.youtube.com/embed/7n3mHzcNu5o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <a href="servicos.html">
+                    <button class="conteudo__botao">Confira nossos serviços</button>
+                </a>
+            </section>
+
+            <section class="conteudo__contato">
+                <h2 class="conteudo__titulo">Entre em contato conosco</h2>
+                <p class="conteudo__texto">A partir de sua mensagem, poderemos agendar um horário ou tirar qualquer dúvida sobre os treinamentos oferecidos</p>
+                <a href="contato.html">
+                    <button class="conteudo__botao">Mande uma mensagem</button>
+                </a>
+            </section>
+        </main>
+
+        <footer class="rodape">
+            <p class="rodape__texto">2022 - Amigocão Marca Imaginária</p>
+        </footer>
 
     </body>
 

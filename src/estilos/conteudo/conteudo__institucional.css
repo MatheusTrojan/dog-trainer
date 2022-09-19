@@ -1,0 +1,11 @@
+.conteudo__institucional {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+
+.conteudo__institucional--video {
+    max-width: 95%;
+    padding-bottom: 1rem;
+}

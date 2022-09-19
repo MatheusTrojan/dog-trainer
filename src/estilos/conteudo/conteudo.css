@@ -1,0 +1,38 @@
+@import url("conteudo__empresa.css");
+@import url("conteudo__historia.css");
+@import url("conteudo__institucional.css");
+@import url("conteudo__contato.css");
+
+.conteudo {
+    background: var(--fundo-principal);
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.conteudo__titulo {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 1rem;
+}
+
+.conteudo__texto {
+    font-size: 1rem;
+    line-height: 1.4rem;
+}
+
+.conteudo__botao {
+    background-color: var(--fundo-secundario);    
+    border: 1px solid black;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 0.5rem 1rem;
+    transition: 0.3s ease-in-out;
+}
+
+.conteudo__botao:hover {
+    background-color: var(--cor-secundaria);
+}

@@ -1,16 +1,25 @@
 @import url("../estilos/cabecalho/cabecalho.css");
-@import url("../estilos/cabecalho/cabecalho__menu.css");
+@import url("../estilos/conteudo/conteudo.css");
+@import url("../estilos/rodape.css");
+
 
 :root {
     --fonte-principal: 'Poppins';
 
-    --fundo-principal: blue;
-    --fundo-secundario: red;
+    --fundo-principal: #9E9D9B;
+    --fundo-secundario: #D6D5D2;
 
-    --cor-primaria: yellow;
-    --branco: rgb(131, 124, 124);
+    --cor-primaria: #181717;   
+    --cor-secundaria:#59564C;
+    --branco: #f1f1f1;
 }
 
 body {
+    font-size: 16px;
     font-family: var(--fonte-principal);
+    font-weight: 400;
+}
+
+.container__geral {
+    background: var(--branco);
 }

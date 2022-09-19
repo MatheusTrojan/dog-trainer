@@ -1,0 +1,8 @@
+.conteudo__contato {
+    margin-bottom: 1.0rem;
+}
+
+.conteudo__contato > .conteudo__texto {
+    text-align: justify;
+    padding: 0 1rem 0.5rem 1rem;
+}

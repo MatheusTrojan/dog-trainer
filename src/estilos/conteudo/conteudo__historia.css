@@ -1,0 +1,19 @@
+.conteudo__historia {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.conteudo__historia > .conteudo__texto {
+    text-align: justify;
+    padding: 0 1em;
+}
+
+.conteudo__historia--imagem {
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin: 1rem;
+    width: 12em;
+}
