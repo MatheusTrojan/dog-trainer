@@ -38,5 +38,65 @@
             </div>            
         </header>
 
+        <main class="conteudo">
+            <h2 class="conteudo__titulo">Nos mande uma mensagem para receber um orçamento!</h2>
+            <form action="" class="contato__formulario">
+                <label for="nome-completo" class="contato__formulario--label">Nome Completo *</label>
+                <input type="text" id="nome-completo" class="contato__formulario--input" placeholder="Digite seu nome completo" required>
+
+                <label for="email" class="contato__formulario--label">E-mail *</label>
+                <input type="email" id="email" class="contato__formulario--input" placeholder="Seu melhor email" required>
+
+                <label for="telefone" class="contato__formulario--label">Telefone *</label>
+                <input type="tel" id="telefone" class="contato__formulario--input" placeholder="Seu telefone com DDD" required>
+
+                <label for="mensagem" class="contato__formulario--label">Mensagem *</label>
+                <textarea name="" id="mensagem" cols="70" rows="5" class="contato__formulario--input" required placeholder="Digite sua mensagem ou dúvida para nossa equipe"></textarea>
+                <p class="contato__formulario--aviso">Campos assinalados com * devem ser preenchidos </p>
+
+                <input type="submit" name="btn-enviar" id="enviar" value="Enviar" class="botao__enviar">
+            </form>
+            <fieldset class="contato__whats">
+                <h3 class="contato__subtitulo">Ou entre em contato no</h3>
+                <a href="https://web.whatsapp.com/">
+                    <button class="contato__botao--whats"> Whatsapp</button>
+                </a>
+            </fieldset>
+
+            <fieldset class="contato__tabela">
+                <legend class="tabela__titulo">Confira nosso horário de atendimento</legend>
+                <table class="tabela">
+                    <thead>
+                        <tr>
+                            <th>Dia</th>
+                            <th>Horário</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Segunda - Sexta</td>
+                            <td>08:00 - 12:00 e 13:30 - 18:00</td>
+                        </tr>
+                        <tr>
+                            <td>Sábado</td>
+                            <td>09:00 - 12:00 e 13:30 - 17:00</td>
+                        </tr>
+                        <tr>
+                            <td>Domingos e Feriados</td>
+                            <td>Verificar possibilidade*</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">* Atendimentos domingos e feriados sujeitos a acréscimo no valor</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+
+        </main>
+
+        <footer class="rodape">
+            <p class="rodape__texto">2022 - Amigocão Marca Imaginária</p>
+        </footer>
+
     </body>
 </html>
