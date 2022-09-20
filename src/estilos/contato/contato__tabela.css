@@ -1,0 +1,36 @@
+.tabela__titulo {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.contato__tabela {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.tabela {
+    margin: 1rem;
+}
+
+thead {
+    background: var(--fundo-terciario);
+    color: white;
+    font-weight: bold;
+}
+
+tr {
+    vertical-align: middle;
+}
+
+td, th {
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    padding: 0.5rem 0.8rem;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: var(--fundo-secundario)
+}
+

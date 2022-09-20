@@ -1,0 +1,48 @@
+.contato__formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.contato__formulario--label {
+    text-align: left;
+    margin: 0.5rem;
+}
+
+.contato__formulario--input {
+    border: 1px solid var(--cor-primaria);
+    border-radius: 0.5rem;
+    font-family: var(--fonte-principal);
+    margin: 0 0.5rem 1rem 0.5rem;
+    max-width: 95%;
+    padding: 0.4rem;
+}
+
+.contato__formulario--input::placeholder {
+    padding-left: 0.25rem;
+}
+
+#mensagem {
+    margin-bottom: 0.25rem;
+}
+
+.contato__formulario--aviso {
+    color: var(--branco);
+    font-size: 0.8rem;
+    margin: 0.5rem 0;
+}
+
+.botao__enviar {
+    background-color: var(--fundo-secundario);    
+    border: 1px solid black;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 0.5rem 1rem;
+    align-self: center;
+    transition: 0.3s ease-in-out;
+    width: 130px;
+}
+
+.botao__enviar:hover {
+    background: var(--cor-secundaria);
+    transform: scale(1.15);
+}
