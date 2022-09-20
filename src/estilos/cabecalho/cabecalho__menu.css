@@ -6,11 +6,12 @@
 }
 
 .container__botao:checked ~ .lista-menu {
-    display: block;
+    display: block;    
 }
 
 .container__botao {
     display: none;
+    cursor: pointer;
 }
 
 .lista-menu__item {

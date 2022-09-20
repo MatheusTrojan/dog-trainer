@@ -32,6 +32,7 @@
     padding: 0.5rem 1rem;
     transition: 0.3s ease-in-out;
     width: 180px;
+    cursor: pointer;
 }
 
 .conteudo__botao:hover {

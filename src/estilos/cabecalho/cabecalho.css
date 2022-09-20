@@ -23,6 +23,7 @@
     display: inline-block;
     height: 2.5em;
     width: 2.5em;
+    cursor: pointer;
 }
 
 .container__botao:checked ~ .container__rotulo > .cabecalho__menu--hamburguer {
