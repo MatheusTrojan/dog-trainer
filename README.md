@@ -18,6 +18,8 @@ Amigocão
 <h4> Disponível em </h4>
 https://matheustrojan.github.io/dog-trainer/
 
+<p> (apenas mobile por enquanto, em outras telas pode quebrar o design) </p>
+
 #
 
 <h4>
