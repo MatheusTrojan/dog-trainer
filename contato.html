@@ -51,7 +51,7 @@
                 <input type="email" name="email" id="email" class="contato__formulario--input" placeholder="Seu melhor email" required>
 
                 <label for="telefone" class="contato__formulario--label">Telefone *</label>
-                <input type="tel" name="telefone" id="telefone" class="contato__formulario--input" placeholder="Seu telefone com DDD" required>
+                <input type="tel" name="telefone" id="telefone" class="contato__formulario--input" placeholder="Seu telefone com DDD" maxlength="15" minlength="15" onkeypress="mascara(this)" required>
 
                 <label for="mensagem" class="contato__formulario--label">Mensagem *</label>
                 <textarea name="mensagem" id="mensagem" cols="70" rows="5" class="contato__formulario--input" required placeholder="Digite sua mensagem ou dúvida para nossa equipe"></textarea>

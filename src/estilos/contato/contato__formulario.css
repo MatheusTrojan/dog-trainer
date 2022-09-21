@@ -17,6 +17,14 @@
     padding: 0.4rem;
 }
 
+.contato__formulario--input:valid {
+    background: var(--cor-valido);
+}
+
+.contato__formulario--input:invalid {
+    background: var(--cor-invalido);
+}
+
 .contato__formulario--input::placeholder {
     padding-left: 0.25rem;
 }
@@ -44,7 +52,7 @@
 }
 
 .botao__enviar:hover {
-    background: var(--cor-secundaria);
+    background: var(--cor-valido);
     transform: scale(1.15);
 }
 

@@ -1,16 +1,35 @@
+dadoTeste= {nome: "teste",
+        email: "teste@teste.com",
+        telefone: "(99)99999-9999",
+        mensagem:  "teste"  
+    };
+
+dados = [dadoTeste]
+
 function cadastraMensagem() {
-    let nome = document.getElementById("nome-completo").value;
-    let email = document.getElementById("email").value;
+    event.preventDefault()
+    let name = document.getElementById("nome-completo").value;
+    let mail = document.getElementById("email").value;
     let tel = document.getElementById("telefone").value;
     let msg = document.getElementById("mensagem").value;
 
-    dados = {
-        "name": nome,
-        "email": email,
-        "telefone": tel,
-        "mensagem": msg
+    var novoDado = {
+        nome: name,
+        email: mail,
+        telefone: tel,
+        mensagem: msg
     }
 
-    alert("Mensagem enviada com sucesso! Em breve entraremos em contato!")
-   
+    dados.push(novoDado)
+    console.log(dados)
+    alert("Mensagem enviada com sucesso! Em breve entraremos em contato!")   
+}
+
+function mascara(telefone){ 
+    if(telefone.value.length == 1)
+        telefone.value = '(' + telefone.value; //quando começamos a digitar, o script irá inserir um parênteses no começo do campo.
+    if(telefone.value.length == 3)
+        telefone.value = telefone.value + ') '; //quando o campo já tiver 3 caracteres (um parênteses e 2 números) o script irá inserir mais um parênteses, fechando assim o código de área.
+    if(telefone.value.length == 10)
+        telefone.value = telefone.value + '-'; //quando o campo já tiver 8 caracteres, o script irá inserir um tracinho, para melhor visualização do telefone.
 }
