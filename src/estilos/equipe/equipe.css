@@ -31,3 +31,28 @@
 .equipe__ficha--dados {
     font-size: 0.9rem;
 }
+
+@media screen and (min-width: 768px) {
+    .equipe {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    
+    .equipe__ficha {
+        width: 40%;
+    }
+
+    .equipe__ficha--imagem {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .equipe__ficha {
+        width: 30%;
+    }
+}

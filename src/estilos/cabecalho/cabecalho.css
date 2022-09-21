@@ -43,3 +43,31 @@
     padding: 0.5em;
     max-width: 2.5em;
 }
+
+@media screen and (min-width: 768px) {
+    .cabecalho__container{
+        flex-direction: row-reverse;
+    }
+
+    .container__rotulo {
+        display: none;
+    }    
+
+    .lista-menu {
+        display: flex;
+        position: initial;
+    }
+
+    .cabecalho__imagem--titulo{
+        align-items: center;
+        display: flex;
+    }
+
+    .container__titulo{
+        color: var(--cor-secundaria);
+        display: flex;
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+
+}

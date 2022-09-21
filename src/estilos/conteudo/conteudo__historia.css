@@ -17,3 +17,13 @@
     margin: 1rem;
     width: 12em;
 }
+
+@media screen and (min-width: 1440px) {
+    .conteudo__historia {
+        margin: 1rem 3rem;
+    }
+    
+    .conteudo__historia--imagem {
+        width: 20em;
+    }
+}

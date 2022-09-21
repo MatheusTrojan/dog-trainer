@@ -47,3 +47,20 @@
     background: var(--cor-secundaria);
     transform: scale(1.15);
 }
+
+.iti__flag {background-image: url("path/to/flags.png");}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .iti__flag {background-image: url("path/to/flags@2x.png");}
+}
+
+@media screen and (min-width: 768px) {
+    .contato__formulario:nth-child(2n) {
+        align-self: center;
+    }
+
+    .botao__enviar {
+        padding: 0.6rem 1rem;
+        width: 200px;
+    }
+}

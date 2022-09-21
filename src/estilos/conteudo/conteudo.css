@@ -38,3 +38,11 @@
 .conteudo__botao:hover {
     background-color: var(--cor-secundaria);
 }
+
+@media screen and (min-width: 768px) {
+    .conteudo__botao {
+        padding: 0.6rem 1rem;
+        margin: 0.5rem;
+        width: 210px;
+    }
+}
