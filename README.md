@@ -29,8 +29,8 @@ https://matheustrojan.github.io/dog-trainer/
 🟢 Mobile First <br>
 🟢 Uma página para cada seção do site <br>
 🟡 Envio das informações do formulário com JS <br>
-🟡 Responsividade com todos tipos de tela <br>
-🟡 Estilização final dos componentes do site <br>
+🟢 Responsividade com todos tipos de tela <br>
+🟢 Estilização final dos componentes do site <br>
 
 <br><br>
 
