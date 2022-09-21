@@ -20,9 +20,17 @@ function cadastraMensagem() {
         mensagem: msg
     }
 
-    dados.push(novoDado)
-    console.log(dados)
-    alert("Mensagem enviada com sucesso! Em breve entraremos em contato!")   
+    dados.push(novoDado);
+    console.clear();
+    console.log(dados);
+    alert("Mensagem enviada com sucesso! Em breve entraremos em contato!") ;
+    alert(`Nome: ${dados[1].nome}\n` + `Email: ${dados[1].email}\n` + `Telefone: ${dados[1].telefone}\n` + `Mensagem: ${dados[1].mensagem}`
+    ); 
+    
+    document.getElementById("nome-completo").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("telefone").value = "";
+    document.getElementById("mensagem").value = "";
 }
 
 function mascara(telefone){ 
