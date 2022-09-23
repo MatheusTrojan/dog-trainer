@@ -18,9 +18,11 @@
     width: 12em;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 768px) {
     .conteudo__historia {
+        align-self: center;
         margin: 1rem 3rem;
+        max-width: 70vh;
     }
     
     .conteudo__historia--imagem {
