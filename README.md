@@ -1,4 +1,4 @@
-<img src="src/images/print.png" align="right"/>
+<img src="src/images/dog-trainer.gif" align="right"/>
 
 <h1>
 Amigocão 
@@ -8,12 +8,6 @@ Amigocão
 <p>É um projeto para treinar minhas habilidades em HTML, CSS e JavaScript</p>
  
 #
-
-<h4> 
-	🚧  Site em desenvolvimento...  🚧
-</h4>
-
-# 
 
 <h4> Disponível em </h4>
 https://matheustrojan.github.io/dog-trainer/
