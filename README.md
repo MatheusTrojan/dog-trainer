@@ -5,7 +5,7 @@ Amigocão
 </h1>
 
 <p>Site de empresa fictícia que presta serviços de adestramento de cães.</p>
-<p>É um projeto para treinar minhas habilidades em HTML, CSS e JavaScript</p>
+<p>Este é um projeto para treinar minhas habilidades em HTML, CSS e JavaScript</p>
  
 #
 
